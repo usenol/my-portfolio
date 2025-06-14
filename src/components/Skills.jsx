@@ -42,7 +42,7 @@ export default function Skills() {
                         Look at some of the technologies I have worked with and the skills I have acquired over time.
                     </p>
                 </header>
-                <section data-aos='fade-up' data-aos-delay="500" className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-6 mt-4 w-full max-w-7xl'>
+                <section data-aos='fade-up' data-aos-delay="300" className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-6 mt-4 w-full max-w-7xl'>
                     {skillsData.map(skill => (
                         <SkillBox key={skill.id} image={skill.image} title={skill.title} description={skill.description} />
                     ))}
