@@ -8,11 +8,12 @@ export default function NavBar() {
         { id: 1, name: 'Home', href: '#home' },
         { id: 2, name: 'About', href: '#about' },
         { id: 3, name: 'Skills', href: '#skills' },
-        { id: 4, name: 'My projects', href: '#projects' },
+        { id: 4, name: 'Experiences', href: '#experiences' },
+        { id: 5, name: 'My projects', href: '#projects' },
     ];
 
     return (
-        <header className='fixed top-0 left-0 w-full z-20 text-white' data-aos='fade-up' data-aos-delay='300'>
+        <header className='fixed top-0 left-0 w-full z-30 text-white backdrop-blur-lg' data-aos='fade-up' data-aos-delay='300'>
             <div className='container mx-auto flex items-center justify-between p-5'>
                 {/* Logo */}
                 <a href="#home" className='text-4xl font-bold italic text-white'> Portfolio </a>
