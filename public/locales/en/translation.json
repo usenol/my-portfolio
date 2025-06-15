@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "profession": "Computer / Software Engineer",
+    "description": "I am a software engineer who is curious about every stage of development, open to learning, and passionate about creating.",
+    "download": "Download CV"
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experiences": "Experiences",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I graduated with honors in June 2025 from Ankara Yıldırım Beyazıt University with a GPA of 3.07 in Computer Engineering. As a solution-oriented and collaborative engineer who is eager to learn, I am now looking to begin my professional career in a company where I can contribute to real-world projects. I believe that with my sense of responsibility and willingness to grow, I can quickly bring value to any team I join.",
+    "button": "Learn More"
+  },
+  "skills": {
+    "header": "My Skills",
+    "subheader": "Look at some of the technologies I have worked with and the skills I have acquired over time.",
+    "java": {
+      "title": "Java",
+      "description": "Strong command of Java for backend development, with experience in creating scalable applications and RESTful APIs using Spring Boot."
+    },
+    "springboot": {
+      "title": "Spring Boot",
+      "description": "Experienced in building secure and efficient REST APIs with Spring Boot, including JWT authentication, PostgreSQL integration, and Docker deployment."
+    },
+    "kotlin": {
+      "title": "Kotlin",
+      "description": "Proficient in Kotlin for Android app development, especially using Jetpack Compose to build modern, responsive user interfaces."
+    },
+    "react": {
+      "title": "React",
+      "description": "Capable of developing interactive user interfaces using React.js, with a focus on component-driven architecture and state management."
+    },
+    "tailwind": {
+      "title": "Tailwind CSS",
+      "description": "Skilled in styling modern web applications using Tailwind CSS for clean, responsive, and utility-first design."
+    },
+    "swift": {
+      "title": "Swift",
+      "description": "Familiar with Swift programming and iOS development concepts, with hands-on experience through academic and personal projects."
+    }
+  },
+  "experiences": {
+    "header": "My ",
+    "subheader": "Experiences",
+    "description": "A detailed look at my internships, training programs, and work experience.",
+    "items": [
+      {
+        "role": "Candidate Engineer",
+        "company": "KEYDATA Computing System Technologies Inc.",
+        "date": "Jan 2025 – Jun 2025",
+        "location": "Ankara, Turkey",
+        "tools": "Java, Maven, Lombok, Hibernate, Spring Boot, Postman, RESTful API, PostgreSQL, JIRA",
+        "description": [
+          "Took part in backend development processes.",
+          "Managed queries and relationships on PostgreSQL database systems."
+        ]
+      },
+      {
+        "role": "Mobile Application Developer (Part-Time)",
+        "company": "The Food Runners",
+        "date": "Feb 2025 – Mar 2025",
+        "location": "Remote – California, USA",
+        "tools": "Flutter, Dart, Android, iOS, Postman, RESTful API, Git, GitHub, JIRA",
+        "description": [
+          "Developed the driver-side UI of the app using Flutter.",
+          "Integrated API endpoints and handled UI logic for mobile screens."
+        ]
+      },
+      {
+        "role": "Intern Software Test Engineer",
+        "company": "Utarit Information Technologies Inc.",
+        "date": "Jul 2024 – Aug 2024",
+        "location": "Ankara, Turkey",
+        "tools": "JIRA, SQL, Postman, Excel, Word",
+        "description": [
+          "Conducted manual and automated mobile application testing.",
+          "Contributed to test documentation and issue tracking processes via JIRA."
+        ]
+      },
+      {
+        "role": "iOS Developer Intern",
+        "company": "Ordulu Technology Inc.",
+        "date": "Jul 2023 – Aug 2023",
+        "location": "Ankara, Turkey",
+        "tools": "Swift, UIKit, Storyboard, MVVM, MVC, CocoaPods, Git, GitLab, Xcode",
+        "description": [
+          "Contributed to the development of a mobile app with end-to-end encryption."
+        ]
+      },
+      {
+        "role": "Trainee Developer",
+        "company": "Apple Authorized Training Center",
+        "date": "Jul 2022 – Dec 2022",
+        "location": "",
+        "tools": "",
+        "description": [
+          "Completed a 240-hour Swift & iOS training program in collaboration with Turkey’s Presidential National Library Digital Transformation Office."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "header": "My",
+    "subheader": "Personal Projects",
+    "description": "A showcase of the personal and academic projects I've built with passion and precision.",
+    "button": "View Project",
+    "items": [
+      {
+        "title": "My Graduation Project: Farm Tracking System",
+        "description": "A full-stack livestock management system developed with Java Spring Boot and Kotlin. The project tracks cattle health, reproduction, and paddock assignments, and offers a user-friendly mobile interface for farmers."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Me",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "Your email",
+    "message": "Message",
+    "messagePlaceholder": "Your message",
+    "send": "Send Message"
+  }
+}

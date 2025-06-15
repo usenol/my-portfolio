@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "profession": "Bilgisayar / Yazılım Mühendisi",
+    "description": "Yazılım geliştirmenin her aşamasına ilgi duyan, öğrenmeye ve üretmeye açık bir mühendisim.",
+    "download": "CV İndir"
+  },
+  "navbar": {
+    "home": "Anasayfa",
+    "about": "Hakkımda",
+    "skills": "Yetenekler",
+    "experiences": "Deneyimler",
+    "projects": "Projeler",
+    "contact": "İletişim"
+  },
+  "about": {
+    "title": "Hakkımda",
+    "description": "Ankara Yıldırım Beyazıt Üniversitesi Bilgisayar Mühendisliği bölümünden 3.07 ortalama ile 2025 Haziran ayı itibariyle onur öğrencisi olarak mezun oldum. Öğrenmeye açık, çözüm odaklı ve ekip çalışmalarına yatkın bir mühendis olarak; artık mezuniyetimin ardından, gerçek dünyadaki projelere katkı sağlayabileceğim bir şirkette profesyonel hayatıma başlamak istiyorum. Sorumluluk almaktan çekinmeyen ve gelişmeye istekli yapım ile bulunduğum ortama kısa sürede değer katacağıma inanıyorum.",
+    "button": "Daha Fazla"
+  },
+  "skills": {
+    "header": "Yeteneklerim",
+    "subheader": "Çalıştığım teknolojileri ve zamanla edindiğim becerileri aşağıda bulabilirsiniz.",
+    "java": {
+      "title": "Java",
+      "description": "Java diliyle backend geliştirme konusunda güçlü bir hakimiyetim var. Spring Boot ile ölçeklenebilir uygulamalar ve RESTful API'ler geliştirdim."
+    },
+    "springboot": {
+      "title": "Spring Boot",
+      "description": "Spring Boot ile güvenli ve verimli REST API'ler geliştirdim. JWT kimlik doğrulama, PostgreSQL entegrasyonu ve Docker dağıtımı deneyimim var."
+    },
+    "kotlin": {
+      "title": "Kotlin",
+      "description": "Jetpack Compose kullanarak modern ve duyarlı kullanıcı arayüzleri oluşturarak Android uygulamaları geliştirdim."
+    },
+    "react": {
+      "title": "React",
+      "description": "React.js kullanarak etkileşimli kullanıcı arayüzleri geliştirme konusunda yetkinim. Bileşen tabanlı yapı ve durum yönetimi konularında deneyimim var."
+    },
+    "tailwind": {
+      "title": "Tailwind CSS",
+      "description": "Tailwind CSS kullanarak modern web uygulamaları için sade, duyarlı ve utility-first tasarımlar oluşturdum."
+    },
+    "swift": {
+      "title": "Swift",
+      "description": "Swift programlama dili ve iOS geliştirme konularında temel bilgim var. Akademik ve kişisel projelerde deneyim kazandım."
+    }
+  },
+  "experiences": {
+    "header": "Deneyimlerim",
+    "subheader": "",
+    "description": "Stajlarım, eğitim programlarım ve iş deneyimlerime dair detaylı bir bakış.",
+    "items": [
+      {
+        "role": "Aday Mühendis",
+        "company": "KEYDATA Bilişim Sistem Teknolojileri A.Ş.",
+        "date": "Ocak 2025 – Haziran 2025",
+        "location": "Ankara, Türkiye",
+        "tools": "Java, Maven, Lombok, Hibernate, Spring Boot, Postman, RESTful API, PostgreSQL, JIRA",
+        "description": [
+          "Backend geliştirme süreçlerinde görev aldım.",
+          "PostgreSQL veritabanı sistemlerinde sorgu ve ilişki yönetimi yaptım."
+        ]
+      },
+      {
+        "role": "Mobil Uygulama Geliştirici (Yarı Zamanlı)",
+        "company": "The Food Runners",
+        "date": "Şubat 2025 – Mart 2025",
+        "location": "Uzaktan – Kaliforniya, ABD",
+        "tools": "Flutter, Dart, Android, iOS, Postman, RESTful API, Git, GitHub, JIRA",
+        "description": [
+          "Sürücü tarafındaki uygulamanın kullanıcı arayüzünü Flutter ile geliştirdim.",
+          "API uç noktalarını entegre ettim ve mobil ekranlara ait mantıksal işlevleri kodladım."
+        ]
+      },
+      {
+        "role": "Yazılım Test Mühendisi Stajyeri",
+        "company": "Utarit Bilişim Teknolojileri A.Ş.",
+        "date": "Temmuz 2024 – Ağustos 2024",
+        "location": "Ankara, Türkiye",
+        "tools": "JIRA, SQL, Postman, Excel, Word",
+        "description": [
+          "Mobil uygulama üzerinde manuel ve otomasyon testleri gerçekleştirdim.",
+          "JIRA üzerinden test dokümantasyonu ve hata takip süreçlerine katkı sağladım."
+        ]
+      },
+      {
+        "role": "iOS Geliştirici Stajyeri",
+        "company": "Ordulu Teknoloji A.Ş.",
+        "date": "Temmuz 2023 – Ağustos 2023",
+        "location": "Ankara, Türkiye",
+        "tools": "Swift, UIKit, Storyboard, MVVM, MVC, CocoaPods, Git, GitLab, Xcode",
+        "description": [
+          "Uçtan uca şifrelemeli bir mobil uygulamanın geliştirilmesine katkı sağladım."
+        ]
+      },
+      {
+        "role": "Stajyer Geliştirici",
+        "company": "Apple Yetkili Eğitim Merkezi",
+        "date": "Temmuz 2022 – Aralık 2022",
+        "location": "",
+        "tools": "",
+        "description": [
+          "Cumhurbaşkanlığı Millet Kütüphanesi Dijital Dönüşüm Ofisi iş birliğinde 240 saatlik Swift & iOS eğitim programını tamamladım."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "header": "Kişisel",
+    "subheader": "Projelerim",
+    "description": "Tutku ve titizlikle geliştirdiğim kişisel ve akademik projelerime bir bakış atın.",
+    "button": "Projeyi Görüntüle",
+    "items": [
+      {
+        "title": "Bitirme Projem: Çiftlik Takip Sistemi",
+        "description": "Java Spring Boot ve Kotlin kullanılarak geliştirilen tam kapsamlı bir hayvancılık yönetim sistemidir. Proje, hayvan sağlığı, üreme ve padok atamalarını takip eder; çiftçilere kullanıcı dostu bir mobil arayüz sunar."
+      }
+    ]
+  },
+  "contact": {
+    "title": "İletişim",
+    "name": "İsim",
+    "namePlaceholder": "Adınız",
+    "email": "E-posta",
+    "emailPlaceholder": "E-posta adresiniz",
+    "message": "Mesaj",
+    "messagePlaceholder": "Mesajınız",
+    "send": "Mesaj Gönder"
+  }
+}
