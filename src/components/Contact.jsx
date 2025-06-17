@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 export default function Contact() {
     const { t } = useTranslation();
     const [status, setStatus] = useState(null);
+    const FORMSPREE_URL = import.meta.env.VITE_FORMSPREE_URL;
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -11,7 +12,7 @@ export default function Contact() {
         const data = new FormData(form);
 
         try {
-            const res = await fetch("https://formspree.io/f/xdkzdkkv", { 
+            const res = await fetch(FORMSPREE_URL, {
                 method: "POST",
                 body: data,
                 headers: {
