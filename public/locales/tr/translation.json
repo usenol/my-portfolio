@@ -4,6 +4,7 @@
     "description": "Yazılım geliştirmenin her aşamasına ilgi duyan, öğrenmeye ve üretmeye açık bir mühendisim.",
     "download": "CV İndir"
   },
+  
   "navbar": {
     "home": "Anasayfa",
     "about": "Hakkımda",
@@ -12,11 +13,13 @@
     "projects": "Projeler",
     "contact": "İletişim"
   },
+
   "about": {
     "title": "Hakkımda",
     "description": "Ankara Yıldırım Beyazıt Üniversitesi Bilgisayar Mühendisliği bölümünden 3.07 ortalama ile 2025 Haziran ayı itibariyle onur öğrencisi olarak mezun oldum. Öğrenmeye açık, çözüm odaklı ve ekip çalışmalarına yatkın bir mühendis olarak; artık mezuniyetimin ardından, gerçek dünyadaki projelere katkı sağlayabileceğim bir şirkette profesyonel hayatıma başlamak istiyorum. Sorumluluk almaktan çekinmeyen ve gelişmeye istekli yapım ile bulunduğum ortama kısa sürede değer katacağıma inanıyorum.",
     "button": "Daha Fazla"
   },
+
   "skills": {
     "header": "Yeteneklerim",
     "subheader": "Çalıştığım teknolojileri ve zamanla edindiğim becerileri aşağıda bulabilirsiniz.",
@@ -45,6 +48,7 @@
       "description": "Swift programlama dili ve iOS geliştirme konularında temel bilgim var. Akademik ve kişisel projelerde deneyim kazandım."
     }
   },
+
   "experiences": {
     "header": "Deneyimlerim",
     "subheader": "",
@@ -105,6 +109,7 @@
       }
     ]
   },
+
   "projects": {
     "header": "Kişisel",
     "subheader": "Projelerim",
@@ -117,14 +122,17 @@
       }
     ]
   },
+
   "contact": {
     "title": "İletişim",
-    "name": "İsim",
-    "namePlaceholder": "Adınız",
+    "name": "Adınız",
     "email": "E-posta",
-    "emailPlaceholder": "E-posta adresiniz",
-    "message": "Mesaj",
-    "messagePlaceholder": "Mesajınız",
-    "send": "Mesaj Gönder"
+    "message": "Mesajınız",
+    "send": "Mesaj Gönder",
+    "namePlaceholder": "Adınızı girin",
+    "emailPlaceholder": "E-posta adresinizi girin",
+    "messagePlaceholder": "Mesajınızı yazın",
+    "successMessage": "Mesajınız başarıyla gönderildi!",
+    "errorMessage": "Bir hata oluştu. Lütfen tekrar deneyin."
   }
 }

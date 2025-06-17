@@ -48,7 +48,7 @@ export default function NavBar() {
                         to="contact"
                         smooth={true}
                         duration={300}
-                        offset={-60}
+                        offset={-90}
                         className='inline-flex cursor-pointer text-white border-2 py-2 px-6 focus:outline-none hover:bg-purple-800 rounded-full text-lg'
                     >
                         {t('navbar.contact')}

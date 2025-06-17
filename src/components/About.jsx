@@ -1,7 +1,7 @@
 import React from 'react';
-import img_about1 from '/images/img_about1.png';
-import img_about2 from '/images/img_about2.png';
-import img_about from '/images/img_about.png';
+import vr from '/images/vr.png';
+import avatar from '/images/avatar.png';
+import kep from '/images/kep.png';
 import { useTranslation } from 'react-i18next';
 
 export default function About() {
@@ -10,8 +10,7 @@ export default function About() {
   return (
     <section id="about" className="relative min-h-screen overflow-hidden flex items-center justify-center text-white px-4 sm:px-6">
 
-      {/* Arka plan blur efekti */}
-      <div className="absolute z-0 w-60 h-60 sm:w-72 sm:h-72 bg-[#cd3cf5] rounded-full blur-3xl opacity-50 top-10 left-1/2 transform -translate-x-1/2 pointer-events-none"></div>
+      <div className="absolute z-0 w-60 h-60 sm:w-72 sm:h-72 bg-[#cd3cf5] rounded-full blur-3xl opacity-50 top-25 left-3/5 transform -translate-x-1/2 pointer-events-none"></div>
 
       <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center relative z-10">
 
@@ -20,12 +19,12 @@ export default function About() {
                           bg-gradient-to-r from-[#6d2897] via-[#6c95f5] to-[#bb61c5] 
                           absolute transform rotate-12 z-0 right-5 -top-2 md:top-10 rounded-full">
           </div>
-          <img src={img_about1} alt="about picture 1"
-            className='absolute -top-2 left-5 sm:left-10 transform -translate-y-12 z-20 w-24 h-24 sm:w-32 sm:h-32 rounded-3xl shadow-lg' />
-          <img src={img_about2} alt="about picture 2"
+          <img src={kep} alt="about picture 1"
+            className='absolute -top-2 left-5 sm:left-10 transform -translate-y-12 z-20 w-24 h-24 sm:w-48 sm:h-48 rounded-3xl' />
+          <img src={avatar} alt="about picture 2"
             className='relative z-10 w-36 h-44 sm:w-40 sm:h-40 md:w-72 md:h-96 rounded-lg shadow-lg' />
-          <img src={img_about} alt="about picture"
-            className='absolute bottom-0 right-5 sm:right-10 transform translate-y-12 z-10 w-20 h-20 sm:w-32 sm:h-32 rounded-3xl shadow-lg' />
+          <img src={vr} alt="about picture"
+            className='absolute bottom-0 right-5 sm:right-10 transform translate-y-6 z-10 w-20 h-20 sm:w-32 sm:h-32 rounded-3xl shadow-lg' />
         </figure>
 
         <article data-aos='fade-left' data-aos-delay="200" className="text-center lg:text-left">

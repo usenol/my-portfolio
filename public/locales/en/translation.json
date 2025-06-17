@@ -120,11 +120,13 @@
   "contact": {
     "title": "Contact Me",
     "name": "Name",
-    "namePlaceholder": "Your name",
     "email": "Email",
-    "emailPlaceholder": "Your email",
     "message": "Message",
+    "send": "Send Message",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Your email",
     "messagePlaceholder": "Your message",
-    "send": "Send Message"
+    "successMessage": "Your message has been sent!",
+    "errorMessage": "Something went wrong. Please try again later."
   }
 }

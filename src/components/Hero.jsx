@@ -1,10 +1,10 @@
 import React from "react";
 import NavBar from "./NavBar";
-import imgHero from "/images/imghero.png";
 import github from "/images/github.png";
 import linkedin from "/images/linkedin.png";
 import resume from "/Umut-Senol-CV.pdf";
 import { useTranslation } from "react-i18next";
+import logo from "/images/logo.png";
 
 export default function Hero() {
   const { t, i18n } = useTranslation();
@@ -75,7 +75,7 @@ export default function Hero() {
           className="flex-1 flex justify-center md:justify-end mt-0"
         >
           <img
-            src={imgHero}
+            src={logo}
             alt="Hero Image"
             className="h-[300px] sm:h-[400px] md:h-[485px] w-[250px] sm:w-[480px] object-cover rounded-lg"
           />
