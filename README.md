@@ -28,31 +28,8 @@ Welcome to **Umut.dev**, my personal portfolio website built with **React**, **T
 - 🧠 Modular & Clean Codebase
 - 🔗 Clickable project cards with hover interaction
 
----
+![Screenshot 2025-06-18 at 16 40 38](https://github.com/user-attachments/assets/7e410658-b2fa-44af-a42f-b1b910d110e8)
+![Screenshot 2025-06-18 at 16 40 48](https://github.com/user-attachments/assets/2b692027-2485-4a22-83cf-f90dad2a60d0)
+![Screenshot 2025-06-18 at 16 40 56](https://github.com/user-attachments/assets/b6c722b3-6e88-49d0-b334-705af3916e0d)
+![Screenshot 2025-06-18 at 16 41 30](https://github.com/user-attachments/assets/de3ce7d3-bdad-4265-9e33-cd0613884d70)
 
-## 🧪 Getting Started
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/yourusername/your-portfolio.git
-cd your-portfolio
-
-2. Install dependencies
-npm install
-
-3. Start the development server
-npm run dev
-
-
-📄 License
-
-This project is licensed under the MIT License.
-
-👨‍💻 Developed by
-
-Umut Şenol
-
-📧 Email: umut.senol@example.com
-🔗 LinkedIn
-💻 GitHub
