@@ -38,13 +38,15 @@ Welcome to **Umut.dev**, my personal portfolio website built with **React**, **T
 git clone https://github.com/yourusername/your-portfolio.git
 cd your-portfolio
 
-### 2. Install dependencies 
+2. Install dependencies 
 
 npm install
 
-### 3. Start the development server
+3. Start the development server
 
 npm run dev
+
+--- 
 
 📄 License
 
