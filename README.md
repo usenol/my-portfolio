@@ -37,22 +37,18 @@ Welcome to **Umut.dev**, my personal portfolio website built with **React**, **T
 ```bash
 git clone https://github.com/yourusername/your-portfolio.git
 cd your-portfolio
-
-# 2. Install dependencies 
-
+2. Install dependencies
 npm install
-
-# 3. Start the development server
-
+3. Start the development server
 npm run dev
-
---- 
-
-# æ📄 License
+📄 License
 
 This project is licensed under the MIT License.
 
-Developed by Umut Şenol
-📧 umut.senol@example.com
+👨‍💻 Developed by
+
+Umut Şenol
+
+📧 Email: umut.senol@example.com
 🔗 LinkedIn
-🔗 GitHub
+💻 GitHub
