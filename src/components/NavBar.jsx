@@ -81,6 +81,7 @@ export default function NavBar() {
                             smooth={true}
                             duration={300}
                             offset={-60}
+                            onClick={() => setIsOpen(false)}
                             className='cursor-pointer hover:text-gray-200 text-lg'
                         >
                             {link.name || ''} {/* fallback */}

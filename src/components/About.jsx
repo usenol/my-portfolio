@@ -20,11 +20,11 @@ export default function About() {
                           absolute transform rotate-12 z-0 right-5 -top-2 md:top-10 rounded-full">
           </div>
           <img src={kep} alt="about picture 1"
-            className='absolute -top-2 left-5 sm:left-10 transform -translate-y-12 z-20 w-24 h-24 sm:w-48 sm:h-48 rounded-3xl' />
+            className='absolute -top-0 left-7 sm:left-10 transform -translate-y-6 z-10 w-20 h-20 sm:w-36 sm:h-36 rounded-3xl' />
           <img src={avatar} alt="about picture 2"
-            className='relative z-10 w-36 h-44 sm:w-40 sm:h-40 md:w-72 md:h-96 rounded-lg shadow-lg' />
+            className='relative z-10 w-36 h-44 sm:w-40 sm:h-40 md:w-72 md:h-96 rounded-lg' />
           <img src={vr} alt="about picture"
-            className='absolute bottom-0 right-5 sm:right-10 transform translate-y-6 z-10 w-20 h-20 sm:w-32 sm:h-32 rounded-3xl shadow-lg' />
+            className='absolute bottom-0 right-5 sm:right-10 transform translate-y-6 z-10 w-20 h-20 sm:w-32 sm:h-32 rounded-3xl' />
         </figure>
 
         <article data-aos='fade-left' data-aos-delay="200" className="text-center lg:text-left">

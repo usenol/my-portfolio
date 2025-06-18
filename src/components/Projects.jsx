@@ -1,6 +1,7 @@
 import React from "react";
 import project1 from "/images/ctsProject.png";
 import { useTranslation } from "react-i18next";
+import { FiExternalLink } from 'react-icons/fi';
 
 const ProjectCard = ({ image, title, description, link, buttonText }) => {
     return (
@@ -14,6 +15,7 @@ const ProjectCard = ({ image, title, description, link, buttonText }) => {
                         alt={title}
                         className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
                     />
+
                     <a
                         href={link}
                         target="_blank"
@@ -25,6 +27,11 @@ const ProjectCard = ({ image, title, description, link, buttonText }) => {
                             {buttonText}
                         </button>
                     </a>
+
+
+                    <div className="absolute top-2 right-2 bg-white text-black p-1 rounded-full shadow-lg opacity-80 group-hover:scale-110 transition-transform duration-300">
+                        <FiExternalLink className="w-4 h-4" />
+                    </div>
                 </figure>
 
                 <div className="px-6 py-4">
@@ -52,19 +59,19 @@ const Projects = () => {
     return (
         <main id="projects" className="p-4 bg-gray-950 text-white min-h-screen pt-[120px]">
             <section data-aos="fade-up" data-aos-delay="300">
-  {/* Blur arka plan */}
-  <div className="absolute z-0 w-72 h-36 sm:w-96 sm:h-44 bg-[#e05fee] rounded-full blur-3xl opacity-50 -top-6 left-1/2 transform -translate-x-1/2 pointer-events-none"></div>
+                {/* Blur arka plan */}
+                <div className="absolute z-0 w-72 h-36 sm:w-96 sm:h-44 bg-[#e05fee] rounded-full blur-3xl opacity-50 -top-6 left-1/2 transform -translate-x-1/2 pointer-events-none"></div>
 
-  {/* Başlık katmanı */}
-  <header className="text-center relative z-10">
-    <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-white">
-      {t("projects.header")} <span className="text-purple-400">{t("projects.subheader")}</span>
-    </h1>
-    <p className="text-gray-400 mt-2 sm:mt-4 text-sm sm:text-base">
-      {t("projects.description")}
-    </p>
-  </header>
-</section>
+                {/* Başlık katmanı */}
+                <header className="text-center relative z-10">
+                    <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-white">
+                        {t("projects.header")} <span className="text-purple-400">{t("projects.subheader")}</span>
+                    </h1>
+                    <p className="text-gray-400 mt-2 sm:mt-4 text-sm sm:text-base">
+                        {t("projects.description")}
+                    </p>
+                </header>
+            </section>
 
             <section
                 data-aos="fade-up"

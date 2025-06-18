@@ -53,16 +53,18 @@
     "header": "Deneyimlerim",
     "subheader": "",
     "description": "Stajlarım, eğitim programlarım ve iş deneyimlerime dair detaylı bir bakış.",
+    "skillsLabel": "Yetenekler & Araçlar",
     "items": [
       {
         "role": "Aday Mühendis",
         "company": "KEYDATA Bilişim Sistem Teknolojileri A.Ş.",
         "date": "Ocak 2025 – Haziran 2025",
         "location": "Ankara, Türkiye",
-        "tools": "Java, Maven, Lombok, Hibernate, Spring Boot, Postman, RESTful API, PostgreSQL, JIRA",
+        "tools": "Java, Maven, Lombok, Hibernate, Spring Boot, Postman, RESTful API, PostgreSQL,React, ViteJS, TailwindCSS, ShadCN UI, JIRA",
         "description": [
           "Backend geliştirme süreçlerinde görev aldım.",
-          "PostgreSQL veritabanı sistemlerinde sorgu ve ilişki yönetimi yaptım."
+          "PostgreSQL veritabanı sistemlerinde sorgu ve ilişki yönetimi yaptım.",
+          "Bir mobil projenin front-end geliştirmesinde ReactJS, TailwindCSS, ViteJS, Container, ShadCN UI teknolojileri kullandım."
         ]
       },
       {
@@ -72,7 +74,7 @@
         "location": "Uzaktan – Kaliforniya, ABD",
         "tools": "Flutter, Dart, Android, iOS, Postman, RESTful API, Git, GitHub, JIRA",
         "description": [
-          "Sürücü tarafındaki uygulamanın kullanıcı arayüzünü Flutter ile geliştirdim.",
+          "Sürücüler için geliştirilen uygulamanın kullanıcı arayüzünü Flutter ile geliştirdim.",
           "API uç noktalarını entegre ettim ve mobil ekranlara ait mantıksal işlevleri kodladım."
         ]
       },
@@ -83,7 +85,7 @@
         "location": "Ankara, Türkiye",
         "tools": "JIRA, SQL, Postman, Excel, Word",
         "description": [
-          "Mobil uygulama üzerinde manuel ve otomasyon testleri gerçekleştirdim.",
+          "Mobil uygulamalar ve web siteleri üzerinde manuel ve otomasyon testleri gerçekleştirdim.",
           "JIRA üzerinden test dokümantasyonu ve hata takip süreçlerine katkı sağladım."
         ]
       },
@@ -94,7 +96,7 @@
         "location": "Ankara, Türkiye",
         "tools": "Swift, UIKit, Storyboard, MVVM, MVC, CocoaPods, Git, GitLab, Xcode",
         "description": [
-          "Uçtan uca şifrelemeli bir mobil uygulamanın geliştirilmesine katkı sağladım."
+          "Uçtan uca şifrelemeye sahip haberleşme uygulaması olan ULAK.IM isimli mobil uygulamanın geliştirilmesine katkı sağladım."
         ]
       },
       {

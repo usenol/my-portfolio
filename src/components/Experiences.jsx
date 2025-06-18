@@ -1,67 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-const experiences = [
-  {
-    id: 1,
-    role: "Candidate Engineer",
-    company: "KEYDATA Computing System Technologies Inc.",
-    date: "Jan 2025 – Jun 2025",
-    location: "Ankara, Turkey",
-    tools: "Java, Maven, Lombok, Hibernate, Spring Boot, Postman, RESTful API, PostgreSQL, JIRA",
-    description: [
-      "Took part in backend development processes.",
-      "Managed queries and relationships on PostgreSQL database systems."
-    ]
-  },
-  {
-    id: 2,
-    role: "Mobile Application Developer (Part-Time)",
-    company: "The Food Runners",
-    date: "Feb 2025 – Mar 2025",
-    location: "Remote – California, USA",
-    tools: "Flutter, Dart, Android, iOS, Postman, RESTful API, Git, GitHub, JIRA",
-    description: [
-      "Developed the driver-side UI of the app using Flutter.",
-      "Integrated API endpoints and handled UI logic for mobile screens."
-    ]
-  },
-  {
-    id: 3,
-    role: "Intern Software Test Engineer",
-    company: "Utarit Information Technologies Inc.",
-    date: "Jul 2024 – Aug 2024",
-    location: "Ankara, Turkey",
-    tools: "JIRA, SQL, Postman, Excel, Word",
-    description: [
-      "Conducted manual and automated mobile application testing.",
-      "Contributed to test documentation and issue tracking processes via JIRA."
-    ]
-  },
-  {
-    id: 4,
-    role: "iOS Developer Intern",
-    company: "Ordulu Technology Inc.",
-    date: "Jul 2023 – Aug 2023",
-    location: "Ankara, Turkey",
-    tools: "Swift, UIKit, Storyboard, MVVM, MVC, CocoaPods, Git, GitLab, Xcode",
-    description: [
-      "Contributed to the development of a mobile app with end-to-end encryption.",
-    ]
-  },
-  {
-    id: 5,
-    role: "Trainee Developer",
-    company: "Apple Authorized Training Center",
-    date: "Jul 2022 – Dec 2022",
-    location: "",
-    tools: "",
-    description: [
-      "Completed a 240-hour Swift & iOS training program in collaboration with Turkey’s Presidential National Library Digital Transformation Office."
-    ]
-  }
-];
-
 export default function Experiences() {
   const { t } = useTranslation();
   const experiences = t("experiences.items", { returnObjects: true }) || [];

@@ -49,16 +49,18 @@
     "header": "My ",
     "subheader": "Experiences",
     "description": "A detailed look at my internships, training programs, and work experience.",
+    "skillsLabel": "Skills & Tools",
     "items": [
       {
         "role": "Candidate Engineer",
         "company": "KEYDATA Computing System Technologies Inc.",
         "date": "Jan 2025 – Jun 2025",
         "location": "Ankara, Turkey",
-        "tools": "Java, Maven, Lombok, Hibernate, Spring Boot, Postman, RESTful API, PostgreSQL, JIRA",
+        "tools": "Java, Maven, Lombok, Hibernate, Spring Boot, Postman, RESTful API, PostgreSQL, React, ViteJS, TailwindCSS, ShadCN UI, JIRA",
         "description": [
           "Took part in backend development processes.",
-          "Managed queries and relationships on PostgreSQL database systems."
+          "Managed queries and relationships on PostgreSQL database systems.",
+          "React, TailwindCSS, ViteJS, Container, ShadCN UI technologies were used in the front-end development of a mobile project."
         ]
       },
       {
@@ -68,7 +70,7 @@
         "location": "Remote – California, USA",
         "tools": "Flutter, Dart, Android, iOS, Postman, RESTful API, Git, GitHub, JIRA",
         "description": [
-          "Developed the driver-side UI of the app using Flutter.",
+          "Developed the user interface of the application for drivers with Flutter.",
           "Integrated API endpoints and handled UI logic for mobile screens."
         ]
       },
@@ -79,7 +81,7 @@
         "location": "Ankara, Turkey",
         "tools": "JIRA, SQL, Postman, Excel, Word",
         "description": [
-          "Conducted manual and automated mobile application testing.",
+          "Conducted manual and automated mobile applications and web sites testing.",
           "Contributed to test documentation and issue tracking processes via JIRA."
         ]
       },
@@ -90,7 +92,7 @@
         "location": "Ankara, Turkey",
         "tools": "Swift, UIKit, Storyboard, MVVM, MVC, CocoaPods, Git, GitLab, Xcode",
         "description": [
-          "Contributed to the development of a mobile app with end-to-end encryption."
+          "Contributed to the development of a mobile application called ULAK.IM, a communication application with end-to-end encryption."
         ]
       },
       {

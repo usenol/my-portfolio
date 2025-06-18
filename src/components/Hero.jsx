@@ -77,7 +77,7 @@ export default function Hero() {
           <img
             src={logo}
             alt="Hero Image"
-            className="h-[300px] sm:h-[400px] md:h-[485px] w-[250px] sm:w-[480px] object-cover rounded-lg"
+            className="h-[300px] sm:h-[400px] md:h-[485px] w-[250px] sm:w-[480px] object-contain rounded-lg"
           />
         </figure>
       </main>
